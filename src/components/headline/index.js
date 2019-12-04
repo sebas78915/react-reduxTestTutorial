@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 class Headline extends Component {
 
@@ -33,8 +33,8 @@ Headline.propTypes = {
         lName: PropTypes.string,
         email: PropTypes.string,
         age: PropTypes.number,
-        onlineStatus:PropTypes.bool
+        onlineStatus: PropTypes.bool
     }))
 }
 
-export default Headline
+export default Headline;
